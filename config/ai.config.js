@@ -75,7 +75,7 @@ function getGenAI(apiKey) {
 
 function getModel(apiKey) {
     const genAI = getGenAI(apiKey);
-    return genAI.getGenerativeModel({ model: 'gemini-2.0-flash' });
+    return genAI.getGenerativeModel({ model: 'gemini-2.5-flash' });
 }
 
 // AI Helper class - now requires apiKey for each operation
